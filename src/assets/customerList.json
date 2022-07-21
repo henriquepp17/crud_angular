@@ -1,0 +1,72 @@
+{
+	"status": "SUCCESS",
+	"message": null,
+	"code": null,
+	"data": {
+		"customerList": [
+			{
+				"id": 3,
+				"name": "FABIO MATTOS DE BARROS",
+				"federalId": "01614786943",
+				"registration": "2228243",
+				"phone": "(48) 99104-9516",
+				"phone2": "(11) 11111-1111",
+				"email": "fabio@scc4.com.br",
+				"emailCollection": "fabio@scc4.com.br",
+				"residentialPhone": "(48) 9910-4926",
+				"commercialPhone": "(48) 9910-4926",
+				"emergencyContact": "Noam",
+				"emergencyPhone": "(48) 99933-8809",
+				"birthday": null,
+				"gender": "M",
+				"federalIdType": "Physical",
+				"commercialAddress": null,
+				"residentialAddress": null,
+				"active": false
+			},
+			{
+				"id": 21,
+				"name": "João",
+				"federalId": "11122233322",
+				"registration": null,
+				"phone": "4488529965",
+				"phone2": null,
+				"email": "joao@gmail.com",
+				"emailCollection": "joao@gmail.com",
+				"residentialPhone": null,
+				"commercialPhone": null,
+				"emergencyContact": null,
+				"emergencyPhone": null,
+				"birthday": null,
+				"gender": "M",
+				"federalIdType": "Physical",
+				"commercialAddress": null,
+				"residentialAddress": null,
+				"active": true
+			},
+			{
+				"id": 22,
+				"name": "Leandro",
+				"federalId": "8888888",
+				"registration": null,
+				"phone": "4788996666",
+				"phone2": null,
+				"email": "leandro@gmail.com",
+				"emailCollection": "leandro@gmail.com",
+				"residentialPhone": null,
+				"commercialPhone": null,
+				"emergencyContact": null,
+				"emergencyPhone": null,
+				"birthday": null,
+				"gender": "F",
+				"federalIdType": "Juridical",
+				"commercialAddress": null,
+				"residentialAddress": null,
+				"active": true
+			}
+		]
+	},
+	"success": true,
+	"fail": false,
+	"error": false
+}

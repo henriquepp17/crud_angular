@@ -1,0 +1,24 @@
+{
+   "products": [
+      {
+         "name":"test",
+         "color":"blue"
+      },
+      {
+         "name":"teuuuust",
+         "color":"green"
+      },
+      {
+         "name":"ddd",
+         "color":"yellow"
+      },
+      {
+         "name":"ggg",
+         "color":"red"
+      },
+      {
+         "name":"aaaa",
+         "color":"grey"
+      }
+   ]
+}

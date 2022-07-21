@@ -1,0 +1,26 @@
+<a routerLink = "/"> < back </a>
+
+<h2>
+  Update Customer
+</h2>
+
+<form id = "formNewProduct" name = "formNewProduct" #productData = "ngForm" (ngSubmit) = "updateProduct(productData.value)">
+	<label>Name: </label><input type = "text" name="name" id="name" [(ngModel)] = "data.name" ngModel><br>
+	<label>E-mail: </label><input type = "text" name="email" id="email" [(ngModel)] = "data.email" ngModel><br>
+	<label>CPF/CNPJ: </label><input type = "text" name="federalId" id="federalId"  [(ngModel)] = "data.federalId" ngModel><br>
+	<label>registration: </label><input type = "text" name="registration" id="registration"  [(ngModel)] = "data.registration" ngModel><br>
+	<label>phone: </label><input type = "text" name="phone" id="phone" [(ngModel)] = "data.phone" ngModel><br>
+	<label>phone2: </label><input type = "text" name="phone2" id="phone2" [(ngModel)] = "data.phone2" ngModel><br>
+	<label>emailCollection: </label><input type = "text" name="emailCollection" id="emailCollection" [(ngModel)] = "data.emailCollection"  ngModel><br>
+	<label>residentialPhone: </label><input type = "text" name="residentialPhone" id="residentialPhone" [(ngModel)] = "data.residentialPhone" ngModel><br>
+	<label>commercialPhone: </label><input type = "text" name="commercialPhone" id="commercialPhone" [(ngModel)] = "data.commercialPhone"  ngModel><br>
+	<label>emergencyContact: </label><input type = "text" name="emergencyContact" id="emergencyContact" [(ngModel)] = "data.emergencyContact" ngModel><br>
+	<label>emergencyPhone: </label><input type = "text" name="emergencyPhone" id="emergencyPhone" [(ngModel)] = "data.emergencyPhone"  ngModel><br>
+	<label>birthday: </label><input type = "text" name="birthday" id="birthday" [(ngModel)] = "data.birthday" ngModel><br>
+	<label>gender: </label><input type = "text" name="gender" id="gender" [(ngModel)] = "data.gender" ngModel><br>
+	<label>federalIdType: </label><input type = "text" name="federalIdType" [(ngModel)] = "data.federalIdType"  id="federalIdType" ngModel><br>
+	<label>active: </label><input type = "text" name="active" id="active" [(ngModel)] = "data.active" ngModel><br>
+
+  <input type="submit" value = "Update Customer">
+</form>
+

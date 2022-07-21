@@ -1,0 +1,29 @@
+<a routerLink = "/"> < back </a>
+
+<h2>
+  Add New Costumer
+</h2>
+
+<form id = "formNewProduct" name = "formNewProduct" #productData = "ngForm" (ngSubmit) = "addNewProduct(productData.value)">
+	<label>Name: </label><input type = "text" name="name" id="name" ngModel><br>
+	<label>E-mail: </label><input type = "text" name="email" id="email" ngModel><br>
+
+	<label>CPF/CNPJ: </label><input type = "text" name="federalId" id="federalId ngModel"><br>
+	<label>registration: </label><input type = "text" name="registration" id="registration" ngModel><br>
+	<label>phone: </label><input type = "text" name="phone" id="phone" ngModel><br>
+	<label>phone2: </label><input type = "text" name="phone2" id="phone2" ngModel><br>
+	<label>emailCollection: </label><input type = "text" name="emailCollection" id="emailCollection" ngModel><br>
+	<label>residentialPhone: </label><input type = "text" name="residentialPhone" id="residentialPhone" ngModel><br>
+	<label>commercialPhone: </label><input type = "text" name="commercialPhone" id="commercialPhone" ngModel><br>
+	<label>emergencyContact: </label><input type = "text" name="emergencyContact" id="emergencyContact" ngModel><br>
+	<label>emergencyPhone: </label><input type = "text" name="emergencyPhone" id="emergencyPhone" ngModel><br>
+	<label>birthday: </label><input type = "text" name="birthday" id="birthday" ngModel><br>
+	<label>gender: </label><input type = "text" name="gender" id="gender"  ngModel><br>
+	<label>federalIdType: </label><input type = "text" name="federalIdType" id="federalIdType" ngModel><br>
+	<label>active: </label><input type = "text" name="active" id="active" ngModel><br>
+
+  <input type="submit" value = "Add Costumer">
+</form>
+
+<br>
+<h3 *ngIf = "isAdded" >{{confirmationString}}</h3>
